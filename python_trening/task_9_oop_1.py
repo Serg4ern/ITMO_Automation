@@ -37,14 +37,11 @@ class Link(Checks):  # Наследование от класса Checks
         self.text = text
 
 
-# Создание объектов классов
-
 # search = Input('input#search', 'Searchbutton')
 button = Button('just#button', 'top_on_list')
 name = Title('name#words', 'top_on_list')
 jump = Link('link#word', 'midside_list')
 
-# Вызов метода check_text() для каждого объекта и печать результата в консоль
 # print(search.check_text())
 print(button.check_text())
 print(name.check_text())
